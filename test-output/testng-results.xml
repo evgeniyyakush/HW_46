@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11405" started-at="2019-08-24T22:44:27 PDT" finished-at="2019-08-24T22:44:38 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11405" started-at="2019-08-24T22:44:27 PDT" finished-at="2019-08-24T22:44:38 PDT">
+      <class name="core.ExtentReportsTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:core.ExtentReportsTest@3f23a3a0]" name="startReport" is-config="true" duration-ms="223" started-at="2019-08-24T22:44:27 PDT" finished-at="2019-08-24T22:44:27 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.ExtentReportsTest@3f23a3a0]" name="beforeClass" is-config="true" duration-ms="6945" started-at="2019-08-24T22:44:27 PDT" finished-at="2019-08-24T22:44:34 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="SignUpTest()[pri:0, instance:core.ExtentReportsTest@3f23a3a0]" name="SignUpTest" duration-ms="1294" started-at="2019-08-24T22:44:34 PDT" finished-at="2019-08-24T22:44:36 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:core.ExtentReportsTest@3f23a3a0]" name="getResult" is-config="true" duration-ms="121" started-at="2019-08-24T22:44:36 PDT" finished-at="2019-08-24T22:44:36 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpTest status=SUCCESS method=ExtentReportsTest.SignUpTest()[pri:0, instance:core.ExtentReportsTest@3f23a3a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@3f23a3a0]" name="ConfirmationTest" duration-ms="1016" started-at="2019-08-24T22:44:36 PDT" depends-on-methods="core.ExtentReportsTest.SignUpTest" finished-at="2019-08-24T22:44:37 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmationTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:core.ExtentReportsTest@3f23a3a0]" name="getResult" is-config="true" duration-ms="74" started-at="2019-08-24T22:44:37 PDT" finished-at="2019-08-24T22:44:37 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConfirmationTest status=SUCCESS method=ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@3f23a3a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.ExtentReportsTest@3f23a3a0]" name="afterClass" is-config="true" duration-ms="851" started-at="2019-08-24T22:44:37 PDT" finished-at="2019-08-24T22:44:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:core.ExtentReportsTest@3f23a3a0]" name="endReport" is-config="true" duration-ms="608" started-at="2019-08-24T22:44:38 PDT" finished-at="2019-08-24T22:44:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- core.ExtentReportsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

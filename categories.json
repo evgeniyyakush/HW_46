@@ -1,0 +1,8 @@
+#it's when we click on Passed in Allure Report unser the Categories
+#because of this file we have different Categories in the Allure Report
+
+[
+  {"name": "Passed", "matchedStatuses": ["passed"]},
+  {"name": "Failed", "matchedStatuses": ["failed"]},
+  {"name": "Ignored", "matchedStatuses": ["skipped"]}
+]
